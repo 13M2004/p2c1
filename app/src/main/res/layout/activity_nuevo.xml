@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NuevoActivity">
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_nombre"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txtTelefono"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_telefono"
+        android:inputType="phone"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/hint_email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGuardar"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/btnCrearRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnCrearRegistro"
+        android:minHeight="48dp" />
+
+    <TextView
+        android:id="@+id/textDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="                                Manuel Alexander Monzón Palma" />
+
+    <TextView
+        android:id="@+id/textCarnet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#4CAF50"
+        android:text="                                              0905-23-3945" />
+
+    <TextView
+        android:id="@+id/textESPACIO"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#F8FFFFFF" />
+
+    <TextView
+        android:id="@+id/textSaludo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DEF44336"
+        android:text="                                   ¡Hasta la próxima Ingeniero!" />
+
+</LinearLayout>
